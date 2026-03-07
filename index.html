@@ -394,11 +394,12 @@ fetch('nature_photos_valid.json')
         
         lessonCards.forEach((card, index) => {
             if (photos[index]) {
-                const img = document.createElement('img');
-                img.src = photos[index].url;
-                img.alt = photos[index].theme;
-                img.className = 'cover-image';
-                card.insertBefore(img, card.firstChild);
+                const existingImg = card.querySelector('img');
+                if (existingImg) {
+                    existingImg.src = photos[index].url;
+                    existingImg.alt = photos[index].theme;
+                    existingImg.className = 'cover-image';
+                }
             }
         });
     })
