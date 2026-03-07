@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "total_photos": 10,
+    "verified_at": "2026-03-07T11:25:07.757761",
+    "sources_used": [
+      "picsum"
+    ],
+    "themes_used": [
+      "winter",
+      "landscape",
+      "sky",
+      "stream",
+      "camping",
+      "mountain",
+      "forest",
+      "arctic",
+      "river",
+      "ocean"
+    ],
+    "formats": [
+      "JPEG"
+    ],
+    "all_unique": true
+  },
+  "photos": [
+    {
+      "url": "https://picsum.photos/seed/winter0beta/1280/800.jpg",
+      "theme": "winter",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:03.565452",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/landscape0beta/1280/800.jpg",
+      "theme": "landscape",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:03.949973",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/sky0beta/1280/800.jpg",
+      "theme": "sky",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:04.381863",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/stream0beta/1280/800.jpg",
+      "theme": "stream",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:04.836669",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/camping0beta/1280/800.jpg",
+      "theme": "camping",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:05.613586",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/mountain0beta/1280/800.jpg",
+      "theme": "mountain",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:06.063034",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/forest0beta/1280/800.jpg",
+      "theme": "forest",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:06.446374",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/arctic0beta/1280/800.jpg",
+      "theme": "arctic",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:06.847148",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/river0beta/1280/800.jpg",
+      "theme": "river",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:07.253017",
+      "status": "valid"
+    },
+    {
+      "url": "https://picsum.photos/seed/ocean0beta/1280/800.jpg",
+      "theme": "ocean",
+      "source": "picsum",
+      "size": "1280x800",
+      "format": "JPEG",
+      "verified_at": "2026-03-07T11:25:07.757702",
+      "status": "valid"
+    }
+  ]
+}
