@@ -84,3 +84,52 @@ body { font-family: 'Inter', sans-serif; background: var(--light-bg); color: #4a
 .modal-content { background-color: white; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 600px; border-radius: 8px; max-height: 70%; overflow-y: auto; }
 .close { color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
 .close:hover { color: black; }
+
+/* Audio Playback Button */
+.topic-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px 0;
+}
+
+.topic-title {
+    margin: 0 !important;
+}
+
+.audio-btn {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    font-size: 1.4rem;
+    color: var(--primary);
+    padding: 0;
+}
+
+.audio-btn:hover {
+    transform: scale(1.1);
+    background: var(--white);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.audio-btn.playing {
+    background: var(--primary);
+    color: var(--white);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(39, 174, 96, 0.4); }
+    70% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(39, 174, 96, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(39, 174, 96, 0); }
+}
